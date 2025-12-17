@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aprendiendo con el Mopri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primario: #0000009b;
+      --color-secundario: #3498db;
+      --color-acento: #1abc9c;
+      --color-fondo: #ecf0f1;
+      --color-texto: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--color-fondo);
+      background-image: url('background.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+      color: var(--color-texto);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    header {
+      background-color: var(--color-primario);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .encabezado {
+      background: linear-gradient(135deg, rgba(58,12,163,0.65), rgba(114,9,183,0.65), rgba(67,97,238,0.65));
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom: 4px solid rgba(76,201,240,0.9);
+      box-shadow: 0 0 20px rgba(58,12,163,0.4);
+      backdrop-filter: blur(4px);
+    }
+
+    .titulo-retro {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 26px;
+      color: #4cc9f0;
+      text-shadow: 0 0 8px #00f5d4, 0 0 20px #00bbf9;
+      margin: 0;
+      letter-spacing: 3px;
+    }
+
+    .subtitulo-retro {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 10px;
+      color: #b8f1b0;
+      margin-top: 25px;
+      text-shadow: 0 0 5px #80ed99;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      background-color: var(--color-secundario);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+
+    section { padding: 2rem; max-width: 1000px; margin: auto; }
+
+    .card {
+      background-color: rgba(135, 75, 200, 0.46);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .carousel-section { padding-top: 1rem; padding-bottom: 1rem; }
+    .carousel-container { display: flex; align-items: center; gap: 10px; position: relative; }
+    .carousel-controls button {
+      background: #333; color: #fff; border: none; padding: 10px 15px;
+      font-size: 20px; border-radius: 8px; cursor: pointer; transition: background 0.3s;
+    }
+    .carousel-controls button:hover { background: #555; }
+    .carousel { display: flex; overflow-x: auto; scroll-behavior: smooth; gap: 20px; padding: 10px; width: 100%; }
+    .carousel::-webkit-scrollbar { display: none; }
+    .carousel .card {
+      min-width: 250px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden; transition: transform 0.3s ease;
+    }
+    .carousel .card:hover { transform: translateY(-5px); }
+    .carousel .card-img { width: 100%; height: 140px; object-fit: cover; display:block; }
+    .carousel .card-content { padding: 10px 15px; }
+    .carousel .card-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 6px; }
+    .carousel .card-description { font-size: 0.9rem; color: #d1dbf0; }
+
+    footer {
+      background-color: var(--color-primario);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.35);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .site { position: relative; z-index: 1; }
+
+    /* Ajustes del formulario de contacto */
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(0,0,0,0.1);
+      box-sizing: border-box;
+    }
+    form button {
+      background: var(--color-acento);
+      color: #002;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay" aria-hidden="true"></div>
+  <div class="site">
+    <header class="encabezado">
+      <h1 class="titulo-retro">APRENDIENDO CON EL MOPRI</h1>
+      <p class="subtitulo-retro">Tu espacio para crecer profesionalmente</p>
+    </header>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#nosotros">Sobre Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio">
+      <div class="card">
+        <h2>Bienvenido</h2>
+        <p>En Aprendiendo con el Mopri te ofrecemos talleres y cursos especializados en tecnología para impulsar tu desarrollo profesional. Aprende con expertos, domina las herramientas digitales más demandadas y lleva tu carrera al siguiente nivel.</p>
+      </div>
+    </section>
+
+    <section id="cursos" class="carousel-section">
+      <div class="card">
+        <h2>Cursos Disponibles</h2>
+        <p>Explora nuestros cursos más populares. Desplázate con los botones o con swipe en dispositivos táctiles.</p>
+
+        <div class="carousel-container">
+          <div class="carousel-controls">
+            <button class="prev" aria-label="Anterior">‹</button>
+          </div>
+
+          <div class="carousel" role="list" id="carrusel"></div>
+
+          <div class="carousel-controls">
+            <button class="next" aria-label="Siguiente">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <div class="card">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una academia comprometida con la educación técnica y profesional. Nuestro enfoque es práctico, accesible y orientado al desarrollo de competencias reales para el mundo laboral.</p>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="card">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+          <input id="nombre" type="text" placeholder="Tu nombre" required />
+          <input id="correo" type="email" placeholder="Tu correo electrónico" required />
+          <textarea id="mensaje" rows="4" placeholder="Tu mensaje"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Aprendiendo con el Mopri. Todos los derechos reservados. Marcando duro desde 1999</p>
+    </footer>
+  </div>
+
+  <!-- SCRIPT PRINCIPAL -->
+  <script>
+    // URL del backend — cambiará a la URL pública cuando lo despliegues
+    const API_URL = 'http://localhost:3000';
+
+    // Función para evitar inyección en el HTML generado
+    function escapeHtml(str) {
+      if (typeof str !== 'string') return '';
+      return str.replace(/[&<>"'`=\/]/g, function(s) {
+        return ({
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          '"': '&quot;',
+          "'": '&#39;',
+          '/': '&#x2F;',
+          '`': '&#x60;',
+          '=': '&#x3D;'
+        })[s];
+      });
+    }
+
+    // Función para cargar cursos desde el backend
+    async function cargarCursos() {
+      const carrusel = document.getElementById("carrusel");
+      carrusel.innerHTML = "<p>Cargando cursos...</p>";
+
+      try {
+        const res = await fetch(`${API_URL}/api/cursos`);
+        if (!res.ok) throw new Error('Error en la respuesta del servidor');
+        const cursos = await res.json();
+        if (!Array.isArray(cursos) || cursos.length === 0) {
+          carrusel.innerHTML = "<p>No hay cursos disponibles.</p>";
+          return;
+        }
+
+        carrusel.innerHTML = cursos.map(curso => `
+          <div class="card" role="listitem">
+            <img src="${curso.imagen}" alt="${escapeHtml(curso.titulo)}" class="card-img">
+            <div class="card-content">
+              <h3 class="card-title">${escapeHtml(curso.titulo)}</h3>
+              <p class="card-description">${escapeHtml(curso.descripcion)}</p>
+              <button style="background:#1abc9c;color:#fff;
+              border:none;padding:8px 12px;border-radius:8px;font-weight:700;cursor:pointer;"onclick="verDetalle(${curso.id})">Empezar</button>
+            </div>
+          </div>
+        `).join("");
+      } catch (err) {
+        console.error("Error cargando cursos:", err);
+        carrusel.innerHTML = "<p>Error al cargar los cursos.</p>";
+      }
+    }
+
+    // Función para ver detalle de un curso (navega a curso.html con query param id)
+    function verDetalle(id) {
+      window.location.href = `curso.html?id=${id}`;
+    }
+
+    // Carrusel: mover izquierda/derecha
+    document.addEventListener("DOMContentLoaded", () => {
+      const carousel = document.querySelector('.carousel');
+      const nextBtn = document.querySelector('.next');
+      const prevBtn = document.querySelector('.prev');
+      const scrollAmount = 300;
+      if (carousel && nextBtn && prevBtn) {
+        nextBtn.addEventListener('click', () => carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' }));
+        prevBtn.addEventListener('click', () => carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
+      }
+      cargarCursos();
+
+      // Manejo básico del formulario de contacto (solo UI, no envía realmente)
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const nombre = document.getElementById('nombre').value.trim();
+          alert(`Gracias ${nombre}. Tu mensaje ha sido recibido.`);
+          contactForm.reset();
+        });
+      }
+    });
+  </script>
+</body>
+</html>
