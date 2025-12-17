@@ -11,6 +11,10 @@ Este repositorio alberga el sistema **backend** desarrollado sobre la plataforma
 
 ---
 
+## Diagrama de Arquitectura
+
+<img width="3836" height="4818" alt="Untitled diagram-2025-12-16-235935" src="https://github.com/user-attachments/assets/f0821438-c0ae-430a-9930-14804d296549" />
+
 ## 📌 Visión general del sistema
 
 El elemento central del sistema es el archivo **`index.js`**, considerado el punto de inicio del proceso de ejecución del servicio.  
@@ -88,6 +92,7 @@ Esto permite:
 - Referencias a ramas y etiquetas  
 - Configuración del repositorio  
 
+
 Gracias a Git se facilita la colaboración entre desarrolladores y la aplicación de flujos avanzados como integración continua, revisiones de código y despliegues controlados.
 
 ---
@@ -96,3 +101,8 @@ Gracias a Git se facilita la colaboración entre desarrolladores y la aplicació
 
 Puedes acceder a recursos complementarios en el siguiente enlace:  
 👉 [Google Drive - mopri-backend](https://drive.google.com/drive/folders/1gtsmNXZqqwuKShbx_Sq3pxoCZTCHXcbR)
+
+
+
+
+
