@@ -96,13 +96,3 @@ Gracias a Git se facilita la colaboración entre desarrolladores y la aplicació
 
 Puedes acceder a recursos complementarios en el siguiente enlace:  
 👉 [Google Drive - mopri-backend](https://drive.google.com/drive/folders/1gtsmNXZqqwuKShbx_Sq3pxoCZTCHXcbR)
-
----
-
-## ⚙️ Cómo ejecutar el proyecto
-
-1. Clonar el repositorio:
-   ```bash
-   git clone <url-del-repo>
-   cd mopri-backend
-
