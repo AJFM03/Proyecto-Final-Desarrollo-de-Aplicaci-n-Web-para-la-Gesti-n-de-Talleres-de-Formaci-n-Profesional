@@ -1,0 +1,214 @@
+[
+ {
+  "id": 1,
+  "titulo": "Curso de Inteligencia Artificial",
+  "descripcion": "Aprende los principios básicos de la IA y cómo aplicarlos en proyectos reales. Descubre cómo las máquinas pueden analizar datos, reconocer patrones y tomar decisiones inteligentes paso a paso.",
+  "duracion": "8 semanas",
+  "modalidad": "Virtual",
+  "certificacion": "Certificado de finalización",
+  "imagen": "assets/ia.png",
+  "fondo": "assets/backcursos.png",
+  "plan_estudio": [
+    {
+      "titulo": "Introducción a IA",
+      "descripcion": "Descubre qué es la inteligencia artificial, sus tipos y principales áreas de aplicación en el mundo actual.",
+      "semana": "1-2",
+      "nivel": "Básico",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Modelos básicos",
+      "descripcion": "Aprende sobre los modelos de IA más usados, como redes neuronales y algoritmos de clasificación.",
+      "semana": "3-4",
+      "nivel": "Intermedio",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Aplicaciones",
+      "descripcion": "Explora cómo se aplica la IA en visión computacional, procesamiento de lenguaje y automatización.",
+      "semana": "5-6",
+      "nivel": "Intermedio",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Proyecto final",
+      "descripcion": "Desarrolla un pequeño proyecto aplicando modelos de IA para resolver un problema real.",
+      "semana": "7-8",
+      "nivel": "Avanzado",
+      "pdf": "assets/test.pdf"
+    }
+  ]
+},
+
+  {
+  "id": 2,
+  "titulo": "Curso de Programación Web",
+  "descripcion": "Domina HTML, CSS y JavaScript para crear sitios modernos e interactivos. Aprende a diseñar, programar y publicar tus propias páginas web desde cero.",
+  "duracion": "10 semanas",
+  "modalidad": "Virtual",
+  "certificacion": "Certificado de finalización",
+  "imagen": "assets/web.png",
+  "fondo": "assets/backcursos.png",
+  "plan_estudio": [
+    {
+      "titulo": "HTML",
+      "descripcion": "Aprende la estructura base de las páginas web y cómo organizar tu contenido de forma semántica.",
+      "semana": "1-3",
+      "nivel": "Básico",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "CSS",
+      "descripcion": "Descubre cómo dar estilo, color y diseño profesional a tus páginas web con hojas de estilo en cascada.",
+      "semana": "4-6",
+      "nivel": "Intermedio",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "JavaScript",
+      "descripcion": "Aprende a hacer tus sitios interactivos, manejar eventos y trabajar con APIs mediante JavaScript.",
+      "semana": "7-9",
+      "nivel": "Intermedio",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Proyecto práctico",
+      "descripcion": "Desarrolla un sitio web completo aplicando todo lo aprendido durante el curso.",
+      "semana": "10",
+      "nivel": "Avanzado",
+      "pdf": "assets/test.pdf"
+    }
+  ]
+},
+  {
+  "id": 3,
+  "titulo": "Curso de Python",
+  "descripcion": "Aprende a programar desde cero con Python. Conoce su sintaxis simple, crea tus primeros proyectos y descubre por qué es uno de los lenguajes más usados del mundo.",
+  "duracion": "9 semanas",
+  "modalidad": "Virtual",
+  "certificacion": "Certificado de finalización",
+  "imagen": "assets/python.png",
+  "fondo": "assets/backcursos.png",
+  "plan_estudio": [
+    {
+      "titulo": "Sintaxis básica",
+      "descripcion": "Familiarízate con la sintaxis de Python, variables, tipos de datos y operadores.",
+      "semana": "1-2",
+      "nivel": "Básico",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Estructuras de datos",
+      "descripcion": "Aprende a manejar listas, tuplas, diccionarios y bucles para resolver problemas prácticos.",
+      "semana": "3-5",
+      "nivel": "Intermedio",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Módulos y paquetes",
+      "descripcion": "Descubre cómo reutilizar código y trabajar con librerías externas en tus proyectos de Python.",
+      "semana": "6-7",
+      "nivel": "Intermedio",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Proyecto final",
+      "descripcion": "Crea tu propio programa o aplicación aplicando todo lo aprendido durante el curso.",
+      "semana": "8-9",
+      "nivel": "Avanzado",
+      "pdf": "assets/test.pdf"
+    }
+  ]
+}
+,
+  {
+  "id": 4,
+  "titulo": "Curso de Inteligencia Artificial",
+  "descripcion": "Explora el fascinante mundo de la Inteligencia Artificial y entiende cómo las máquinas aprenden, razonan y toman decisiones. Aprende los fundamentos que impulsan desde los asistentes virtuales hasta las aplicaciones más innovadoras del futuro.",
+  "duracion": "8 semanas",
+  "modalidad": "Virtual",
+  "certificacion": "Certificado de finalización",
+  "imagen": "assets/aprendesql.png",
+  "fondo": "assets/backcursos.png",
+  "plan_estudio": [
+    {
+      "titulo": "Introducción a la Inteligencia Artificial",
+      "descripcion": "Conoce qué es realmente la IA, cómo surgió y por qué está en todas partes. Descubre los tipos de inteligencia artificial, sus usos en la vida diaria y los conceptos básicos de aprendizaje automático.",
+      "semana": "1-2",
+      "nivel": "Básico",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Aprendizaje Automático (Machine Learning)",
+      "descripcion": "Aprende cómo las máquinas 'aprenden' a partir de datos. Entiende los modelos, algoritmos y ejemplos simples que explican cómo una IA puede reconocer patrones, predecir resultados o clasificar información.",
+      "semana": "3-5",
+      "nivel": "Básico",
+      "pdf": "assets/test2.pdf"
+    },
+    {
+      "titulo": "Aplicaciones y Ética de la IA",
+      "descripcion": "Explora cómo se usa la inteligencia artificial en la medicina, el arte, los negocios y más. Además, conoce los desafíos éticos: sesgos, privacidad y el papel del ser humano en un mundo con IA.",
+      "semana": "6-8",
+      "nivel": "Básico",
+      "pdf": "assets/test3.pdf"
+    }
+  ]
+},
+  {
+    "id": 5,
+    "titulo": "Curso de Ciberseguridad Básica",
+    "descripcion": "Aprende a proteger sistemas, redes y datos frente a amenazas informáticas reales. Conoce los fundamentos esenciales de la seguridad digital y desarrolla habilidades prácticas para mantener la información segura en entornos personales y profesionales.",
+    "duracion": "8 semanas",
+    "modalidad": "Virtual",
+    "certificacion": "Certificado de finalización",
+    "imagen": "assets/cursociber.png",
+    "fondo": "assets/backcursos.png",
+     "plan_estudio": [
+      { "titulo": "Fundamentos de Ciberseguridad", 
+      "descripcion": "Introducción a los conceptos clave de la seguridad informática: tipos de amenazas, vulnerabilidades, ataques comunes y buenas prácticas para prevenirlos. Aprenderás cómo funcionan los sistemas de protección y qué medidas básicas aplicar en el día a día.", 
+      "semana": "1-2", 
+      "nivel": "Básico",
+      "pdf": "assets/test.pdf"},
+      { "titulo": "Fundamentos de IA", "descripcion": "Conoce cómo se aseguran las redes y equipos frente a accesos no autorizados. Aprenderás sobre firewalls, antivirus, contraseñas seguras, autenticación de doble factor y cómo configurar entornos domésticos o empresariales más seguros.", 
+      "semana": "3-5", "nivel": "Básico","pdf": "assets/test2.pdf"},
+      { "titulo": "Buenas Prácticas y Seguridad en Línea", 
+      "descripcion": "Aprende a identificar fraudes, phishing y otros riesgos en internet. Descubre cómo proteger tu identidad digital, tus datos personales y mantener una presencia segura en redes sociales y plataformas digitales.", 
+      "semana": "6-8", 
+      "nivel": "Básico",
+      "pdf": "assets/test3.pdf"}
+    ]
+  },
+{
+  "id": 6,
+  "titulo": "Curso de Desarrollo de Apps Móviles",
+  "descripcion": "Crea tus propias aplicaciones para Android e iOS con Flutter y React Native. Aprende paso a paso cómo diseñar, programar y publicar apps funcionales, modernas y listas para usar.",
+  "duracion": "10 semanas",
+  "modalidad": "Híbrido (virtual + sesiones presenciales)",
+  "certificacion": "Certificado de finalización",
+  "imagen": "assets/desarrolloapps.png",
+  "fondo": "assets/backcursos.png",
+  "plan_estudio": [
+    {
+      "titulo": "Introducción al Desarrollo Móvil",
+      "descripcion": "Conoce cómo funcionan las aplicaciones móviles, las diferencias entre Android e iOS y las herramientas más usadas. Aprenderás a instalar tu entorno de trabajo y crear tu primera app desde cero.",
+      "semana": "1-3",
+      "nivel": "Básico",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Diseño y Desarrollo con Flutter y React Native",
+      "descripcion": "Aprende a construir interfaces modernas y fluidas. Descubre cómo conectar tus apps con bases de datos, usar componentes dinámicos y crear experiencias atractivas para el usuario.",
+      "semana": "4-7",
+      "nivel": "Intermedio",
+      "pdf": "assets/test.pdf"
+    },
+    {
+      "titulo": "Publicación y Optimización de Apps",
+      "descripcion": "Da los últimos toques antes de lanzar tu app. Aprende a probarla, mejorar su rendimiento y publicarla en Google Play y App Store sin morir en el intento.",
+      "semana": "8-10",
+      "nivel": "Intermedio",
+      "pdf": "assets/test.pdf"
+    }
+  ]
+}
+]
